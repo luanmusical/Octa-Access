@@ -1,0 +1,21 @@
+# Bytecode
+__pycache__/
+*.pyc
+
+# Estado/log gerados em tempo de execução — específicos da sua máquina/placa,
+# não fazem sentido versionados nem distribuídos.
+octa_state.json
+octa_debug.log
+octa_crash.log
+
+# Saída de build do Nuitka/PyInstaller, quando chegarmos nessa etapa.
+*.build/
+*.dist/
+*.onefile-build/
+build/
+dist/
+
+# Arquivos .octa pessoais de teste (feature de salvar/carregar configuração
+# ficou de fora desta versão — o painel oficial da Roland já cobre isso).
+arquivos configuração/
+

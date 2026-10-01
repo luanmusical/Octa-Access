@@ -1,0 +1,35 @@
+MIT License
+
+Copyright (c) 2026 Luan Richard
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Bibliotecas de terceiros
+
+Este programa usa, em tempo de build/execução:
+
+- **miniaudio** (https://github.com/mackron/miniaudio) — domínio público / MIT No Attribution, por David Reid. Usada para a captura de áudio ao vivo do Monitor de Clipping.
+- **NVDA Controller Client** — distribuído livremente pela NV Access como parte do SDK do NVDA, usado para enviar fala ao NVDA.
+- **Tolk** / SAPI do Windows — rotas alternativas de fala pra quando o NVDA não está rodando.
+
+O mapeamento do protocolo SysEx da Roland OCTA-CAPTURE usado neste programa foi
+cruzado com a pesquisa pública do projeto `dctucker/roland-capture`
+(https://github.com/dctucker/roland-capture).
